@@ -1,0 +1,25 @@
+body{
+   
+    background-color: rgba(37, 39, 39, 0.704);
+    
+      font-family:'Roboto', sans-serif;
+      
+}
+.Maincontainer{
+    display: flex;
+     /* align-items: center; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+     gap: 0 0.4vh 0.4vh;
+}
+.height{
+    height: 25rem; 
+    overflow: scroll;
+    margin-bottom: 2rem;
+}
+
+.height:hover{
+   border: 5px solid gray;
+}
+
